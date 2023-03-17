@@ -1,0 +1,83 @@
+.title{
+    text-align: center;
+
+}
+
+
+
+
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+    margin: auto;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0.5046393557422969) 68%, rgba(253,187,45,1) 100%);
+    font-weight: bolder;
+    color: rgb(255, 251, 0);
+    
+}
+
+
+
+
+
+.menu{
+    
+    display: block;
+    margin: auto;
+    vertical-align: left;
+    padding-top: 5px;
+    
+    background: rgb(61,99,99);
+    background: linear-gradient(0deg, rgba(61,99,99,0.5046393557422969) 31%, rgba(0,0,0,0.938813025210084) 85%);
+
+    
+
+
+}
+
+.menu li:hover{
+    border-color:brown ;
+    font-size: 20px;
+    color: red;
+    transform: scale(1.02);
+    transition: 0.7 all;
+
+}
+.menu li:active{
+    
+}
+
+.lista{
+    list-style-position: inside;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+}
+
+.textfinal{
+    text-align: center;
+    font-size: 18px;
+}
+
+.li1, .li2, .li3{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex
+}
+
+
+.li1:hover, .li2:hover , .li3:hover{
+    color: red;
+    
+}
+
+
+
+
+
