@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,30 +9,34 @@
   
   <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="video.css">
+  </head>
+  <body>
+<div class="degrade">
 
-  <link rel="stylesheet" href="video.css">
-</head>
-<body>
-   <div class="menu">
-      <ul class="lista">
-        <li> <a class="li1" href="#faixadec">Faixa de condução</a></li>
-        <li><a  class="li2" href="#Eficiência">Eficiência</a></li>
-        <li><a class="li3"   href="#Absorcao">Absorção</a> </li>
-      </ul>
-  </div class menu>
+    <div class="menu">
+        <ul class="lista">
+          <li> <a class="li1" href="#faixadec">Faixa de condução</a></li>
+          <li><a  class="li2" href="#Eficiência">Eficiência</a></li>
+          <li><a class="li3"   href="#Absorcao">Absorção</a> </li>
+        </ul>
+    </div class menu>
+
+
 
 
   
 
-  <p>&nbsp;</p>
-  <blockquote> 
+
+ 
     <h2 class="title">Como 
       Funciona a célula fotovoltaica</b></i></h2>
-  </blockquote>
+ 
   <hr>
   <blockquote> 
-    <p><b><i>Como a Célula 
-      Fotovoltaica Funciona</i></b></p>
+    <p class="titulo"><b><i>Célula 
+      Fotovoltaica</i></b></p>
+    <div class="texto1">
     <p><img src="index_arquivos/anim1.gif"></p>
     <p>O efeito 
       fotovoltaico é o processo físico pelo qual uma célula fotovoltaica converte 
@@ -50,7 +53,8 @@
       da células fotovoltaica (um campo elétrico nela embutido) fazem com que a 
       correte produza uma DDP para que haja corrente em uma carga externa (como 
       uma lâmpada incandescente, por exemplo).</p>
-  </blockquote>
+    </blockquote>
+   
   
  
 
@@ -58,12 +62,13 @@
     </tr>
   </tbody></table>
   <p>&nbsp;</p>
-  <p><i><a name="atomo"></a><b>O 
+  <p class="titulo-atomo"><i><a name="atomo"></a><b>O 
     Átomo de Silício</b></i></p>
-  <table>
-    <body><tr> 
-      <td><img src="index_arquivos/Image3.gif"></td>
-      <td>Toda a 
+  
+    <body>
+      <img src="index_arquivos/Image3.gif" class="imgatomo">
+  
+      <p class="atomo">Toda a 
         matéria é composta de átomos. Atómos, por sua vez, são compostos de prótons 
         positivamente carregados, elétrons negativamente carregados e neutrons, 
         neutros. O número igual de elétrons e protons torna um átomo eletricamente 
@@ -71,15 +76,16 @@
         do núcleo possuem mais energia que os elétrons mais próximos do núcleo. 
         O átomo de silício tem 14 elétrons, porém, somente os 4 últimos da camada 
         de valência podem ser compartilhados. Estes quatro últimos elétrons apresentam 
-        um papel importante no efeito fotovoltaico.</td>
-    </tr>
-  </tbody></table>
-  <p><b><i><a name="semi"></a>Semicondutor 
+        um papel importante no efeito fotovoltaico.</p>
+    
+  </tbody>
+
+  <p class="titulo-semi"><b><i><a name="semi"></a>Semicondutor 
     tipo-N, tipo-P e o Campo Elétrico</i></b></p>
   <table>
     <tbody><tr> 
-      <td><img src="index_arquivos/Image4.gif" width="247" height="298"></td>
-      <td>
+      <img src="index_arquivos/Image4.gif" class="imgsemi">
+      <div class="semi">
         <p>Para induzir 
           o campo elétrico dentro de uma célula fotovoltaica, são intercalados dois 
           semicondutores separados. O "tipo N" e o "tipo P". 
@@ -98,44 +104,48 @@
           a superfície e os faz disponíveis para o circuito elétrico. No mesmo instante, 
           as lacunas se movem para a direção oposta, para a superfície positiva 
           onde elas esperam elétrons livres.</p>
-        </td>
+        </div>
     </tr>
   </tbody></table>
   
-  <p id="faixadec"><b>A<i>
+  <p id="faixadec" class="titulo-faixa"><b>A<i>
     Faixa de Condução</i></b></p>
+ 
+    <div class="faixadec">
   
-  <p>Nem todos os fotons 
-    da luz solar que entram na célula fotovoltaica possuem um nível de energia suficiente 
-    para deixar elétrons livres dentro da célula e gerar corrente elétrica. Este 
-    nível de energia, conhecido como "band-gap" é a energia necessária 
-    para quebrar ligação covalente do elétron e permitir que ele faça parte de um 
-    circuito elétrico (corrente). Fotons com quantidade de energia maior que a da 
-    band-gap podem gastar energia extra em forma de calor. Assim, é importante que 
-    uma célula fotovoltaica esteja ajustada (por modificações leves na estrutura 
-    da molécula do metal semicondutor) de modo a maximizar a energia do foton. Afinal, 
-    uma chave para obter um célula eficiente é converter o máximo de energia luminosa 
-    em energia elétrica.</p>
-  
-  <p><img src="index_arquivos/Image5.gif" width="326" height="128"></p>
-  
-  <p>Semicondutores usando 
-    em células fotovoltaicas tem energia band-gap que varia na ordem de 1.0 a 1.6 
-    elétron-volt (eV). Isto devido ao fato que esta faixa de eV é a ideal para que 
-    não haja grandes perdas de calor. Por exemplo, a energia de band-gap do silício 
-    cristalino é de 1,1 eV.</p>
-  <p>A energia do foton 
-    de luz, também medida em eV, varia de acordo com os comprimentos de onda diferentes 
-    da luz. O espectro inteiro de luz solar, de infra-vermelho para ultravioleta, 
-    tem um alcance de cerca de 0.5 eV para aproximadamente 2.9 eV. Por exemplo, 
-    a luz vermelha tem uma energia de cerca de 1.7 eV, e a luz azul tem uma energia 
-    de cerca de 2.7 eV. Aproximadamente 55% da energia de luz solar não podem ser 
-    usados pela maioria das células fotovoltaicas.</p>
+    <p>Nem todos os fotons 
+      da luz solar que entram na célula fotovoltaica possuem um nível de energia suficiente 
+      para deixar elétrons livres dentro da célula e gerar corrente elétrica. Este 
+      nível de energia, conhecido como "band-gap" é a energia necessária 
+      para quebrar ligação covalente do elétron e permitir que ele faça parte de um 
+      circuito elétrico (corrente). Fotons com quantidade de energia maior que a da 
+      band-gap podem gastar energia extra em forma de calor. Assim, é importante que 
+      uma célula fotovoltaica esteja ajustada (por modificações leves na estrutura 
+      da molécula do metal semicondutor) de modo a maximizar a energia do foton. Afinal, 
+      uma chave para obter um célula eficiente é converter o máximo de energia luminosa 
+      em energia elétrica.</p>
+    
+      <img src="index_arquivos/Image5.gif" class="imgfaixadec" >
+    
+    <p>Semicondutores usando 
+      em células fotovoltaicas tem energia band-gap que varia na ordem de 1.0 a 1.6 
+      elétron-volt (eV). Isto devido ao fato que esta faixa de eV é a ideal para que 
+      não haja grandes perdas de calor. Por exemplo, a energia de band-gap do silício 
+      cristalino é de 1,1 eV.</p>
+    <p>A energia do foton 
+      de luz, também medida em eV, varia de acordo com os comprimentos de onda diferentes 
+      da luz. O espectro inteiro de luz solar, de infra-vermelho para ultravioleta, 
+      tem um alcance de cerca de 0.5 eV para aproximadamente 2.9 eV. Por exemplo, 
+      a luz vermelha tem uma energia de cerca de 1.7 eV, e a luz azul tem uma energia 
+      de cerca de 2.7 eV. Aproximadamente 55% da energia de luz solar não podem ser 
+      usados pela maioria das células fotovoltaicas.</p>
+
+    </div>
    
-  <p>&nbsp; </p>
-  <p id="Eficiência"><b><i></a>A
+  
+  <p id="Eficiência" class="titulo-eficiencia"><b><i></a>A
     Eficiência da Conversão </i></b></p>
-  <p>A eficiência 
+  <p class="eficiencia">A eficiência 
     da conversão luz/eletricidade de uma 
     célula fotovoltaica é a proporção de energia de luz solar que a célula converte 
     a energia elétrica. Isto é muito importante quando discutivos dispositivos fotovoltaicos, 
@@ -145,8 +155,8 @@
     então o custo daquela energia será reduzido. É óbvio que do outro lado desta 
     equação está o dinheiro gasto para a fabricação.</p>
   
-    <h2 class="textfinal">Absorção e condução</h2>
-  <p id="#Absorcao">Em uma célula 
+    <h2 class="textfinal" id="Absorcao">Absorção e condução</h2>
+  <p id="#Absorcao" class="absorcao">Em uma célula 
     fotovoltaica, os fótons são absorvidos pela parte "P" do semicondutor. 
     É muito importante "afinarmos" o semicondutor tipo-p com as propriedades 
     do fótons que irão entrar na célula afim de "livrar-mos" o máximo 
@@ -156,14 +166,13 @@
     o mais próximo possível da junção, de forma que o campo elétrico possa ajudar 
     a enviá-los para a parte tipo-p e para fora do circuito elétrico. Maximizando 
     todas estar características, nós melhoramos a eficiência de conversão da cela 
-    de PV.</p>
-  <p>Para fazer 
-    uma célula solar eficiente, tentamos maximizar a absorção, minimizando a reflexão 
-    e recombinação, e assim maximizamos a condução.</p>
+    de PV Para fazer uma célula solar eficiente, tentamos maximizar a absorção, minimizando a reflexão 
+     recombinação, e assim maximizamos a condução.</p>
+ 
   
     <video autoplay loop poster="./index_arquivos/ocean.gif (1).gif" class="bg_video">
       <source src="./index_arquivos/Ocean Moon Glint and City Night Lights in 4K UHD (1).mp4" type="video/mp4">
     </video>
-  
-  
-  </body></html>
+</div>
+
+</body></html>
