@@ -1,8 +1,3 @@
-.title{
-    text-align: center;
-
-}
-
 
 
 
@@ -12,10 +7,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: inline;
     margin: auto;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,0.5046393557422969) 68%, rgba(253,187,45,1) 100%);
     font-weight: bolder;
     color: rgb(255, 251, 0);
+    
     
 }
 
@@ -23,15 +17,45 @@ body{
 
 
 
+
+.titulo{
+    color: white;
+    font-size: 28px;
+}
+
+
+
+
+.title{
+    text-align: center;
+   
+   
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+    color: #e0dfdc;
+   
+}
+
+
+
+
+.texto1{
+    width: 777px;
+    text-align: justify;
+    padding-left: 225px;
+}
+
+
+
+
+
 .menu{
+
+
+   padding-top: 3px;
     
-    display: block;
-    margin: auto;
-    vertical-align: left;
-    padding-top: 5px;
-    
-    background: rgb(61,99,99);
-    background: linear-gradient(0deg, rgba(61,99,99,0.5046393557422969) 31%, rgba(0,0,0,0.938813025210084) 85%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.505) 31%, rgba(0,0,0,0.938813025210084) 85%);
 
     
 
@@ -44,6 +68,7 @@ body{
     color: red;
     transform: scale(1.02);
     transition: 0.7 all;
+    transform: matrix3d(1.02);
 
 }
 .menu li:active{
@@ -54,8 +79,21 @@ body{
     list-style-position: inside;
     list-style-type: none;
     text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.li1{
+    padding-left: 77px;
+
 }
 
+.li2{
+    padding-left: 15px;
+}
+.li3{
+    padding-right: 177px;
+}
 p{
     text-align: center;
 }
@@ -75,6 +113,102 @@ p{
 .li1:hover, .li2:hover , .li3:hover{
     color: red;
     
+}
+
+.titulo-atomo{
+    color: white;
+    font-size: 28px;
+    padding-left: px;
+ 
+
+}
+
+
+.atomo{
+    width: 777px;
+    text-align: justify;
+    padding-left: 19%;
+    
+  
+
+    
+    
+}
+
+.imgatomo{
+    padding-left:40%;
+
+
+}
+
+.titulo-semi{
+    color: white;
+    font-size: 28px;
+
+    
+}
+
+.imgsemi{
+    padding-left:40%;
+
+}
+
+.semi{
+    width: 777px;
+    
+    padding-left: 19%;
+    text-align: justify;
+    
+
+}
+
+.titulo-faixa{
+    color: white;
+    font-size: 28px;
+
+}
+
+.faixadec{
+    width: 777px;
+    text-align: justify;
+    padding-left: 19%;
+}
+
+.imgfaixadec{
+    padding-left: 23%;
+}
+
+.titulo-eficiencia{
+    color: white;
+    font-size: 28px;
+
+}
+
+.eficiencia{
+    width: 777px;
+    text-align: justify;
+    padding-left: 19%;
+
+}
+
+.textfinal{
+    color: white;
+    font-size: 28px;
+
+}
+
+.absorcao{
+    width: 777px;
+    text-align: justify;
+    padding-left: 19%;
+
+}
+
+.degrade{
+    background: rgb(204,214,214);
+    background: linear-gradient(0deg, rgba(13, 14, 14, 0.351) 2%, rgba(0,0,0,0.9948354341736695) 100%);
+    padding-bottom: 10%;
+
 }
 
 
