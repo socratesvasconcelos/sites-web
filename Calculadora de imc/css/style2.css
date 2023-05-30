@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+body {
+  background-color: bisque;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+}
+
+/* Menu */
+ul {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+li {
+  padding-right: 20px;
+  display: inline-block;
+  list-style: none;
+}
+
+li .mymenu {
+  font-family: 'open_sansbold';
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #4c4c4c;
+  -webkit-border-box: 0 1px 0 0 #4c4c4c;
+  border-bottom: 4px solid transparent;
+  -webkit-transition: border-bottom .3s linear;
+}
+
+li .mymenu:hover {
+  border-bottom: 4px solid #4c4c4c;
+}
+
+.imc-informacoes {
+  margin-bottom: 1.5%;
+}
+
+.texto1 {
+  font-size: 16px;
+  width: 100%;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+.img1 {
+  border-right: 8px outset rgba(28, 110, 164, 0.2);
+  border-radius: 0px 23px 23px 0px;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive styles */
+@media (min-width: 576px) {
+  /* Adjustments for screens larger than 576px */
+  .texto1 {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Adjustments for screens larger than 768px */
+  .img1 {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Adjustments for screens larger than 992px */
+  .texto1 {
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Adjustments for screens larger than 1200px */
+  .texto1 {
+    width: 30%;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+}
