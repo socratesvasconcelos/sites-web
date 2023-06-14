@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <label for="nome_completo">Nome completo</label>
+            <input type="text" id="nome_completo" class="input" required>
+            
+             <label for="id">ID</label>
+             <input type="number" id="id" class="input" required placeholder="ID">
+            
+
+            <div class="radio-group">
+                <p class="texto">Selecione Pessoa física/jurídica:</p>
+                <label for="radio-fisica"><input type="radio" name="pessoa" value="fisica" id="radio-fisica" class="radios">Física</label>
+                <label for="radio-juridica"><input type="radio" name="pessoa" value="juridica" id="radio-juridica" class="radios">Jurídica</label>
+            </div>
+            
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" class="input" required>
+            
+            <label for="cep">CEP</label>
+            <input type="text" id="cep" class="input" required placeholder="Ex: 60000-000">
+            
+            <label for="rua">Rua:</label>
+            <input type="text" id="rua" class="input" required placeholder="Ex: Av abolição 332">
+            
+            <label for="data">Data de nascimento:</label>
+            <input type="date" id="data" class="input" required>
+            
+            <label for="vendedor">Vendedor:</label>
+            <input type="text" id="vendedor" class="input" required>
+            
+            <label for="limite">Limite de crédito:</label>
+            <input type="number" id="limite" class="input" required placeholder="Limite de crédito">
+            
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+    </main>
+
+    <script src="../Formulario/script/script.js"></script>
+</body>
+</html>
