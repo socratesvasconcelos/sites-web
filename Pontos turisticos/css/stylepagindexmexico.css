@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+
+*{
+    font-family: 'Darumadrop One', cursive;
+}
+
+
+
+
+
+body{
+    background-color: #bbb;
+    
+}
+.mexico-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    font-size: 34px;
+    padding-bottom: 2%;
+    
+  }
+
+
+.titulo-principal-mexico{
+    color: green;   
+    text-shadow: 3px 5px 2px #474747;
+    
+    
+
+    
+    
+    
+}
+.titulo-edit-mexico{
+    color: #FFFFFF;   
+    
+ 
+   
+   
+
+
+}
+.titulo-edit-mexico2{
+    color:red;   
+    text-shadow: 3px 5px 2px #474747;
+    
+}
+.titulo-principal-mexico, .titulo-edit-mexico, .titulo-edit-mexico2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+   
+}
+
+
+.texto-do-clicavel1{
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding-left: 7rem;
+}
+
+
+.clicavel1{
+   
+    
+}
+
+.texto-do-clicavel1 a:hover{
+    color: rgb(58, 128, 194);
+    text-decoration: underline;
+    transition: 0.8s;
+    
+
+}
+
+
+
+main{
+    background-color: rgb(234, 237, 240);
+    width: 70%;
+    margin-left: 23.5rem;
+    background: rgb(210,197,197);
+    background: linear-gradient(180deg, #bbb 0%, rgba(236,230,230,1) 35%, rgba(221,206,206,0.5298494397759104) 100%);
+    border: 4px hidden #1C6EA4;
+    border-radius: 40px 39px 40px 40px;
+    padding-left: 10%;
+    padding-left: 0;
+ 
+    
+
+    
+}
+
+.titulo-informativo{
+    font-size: 42px;
+    color: rgb(76, 119, 240);
+    margin-left: 0.5rem;
+    text-align: center;
+    
+}
+
+.texto-geral1{
+    font-size: 24px;
+    color: #474747;
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
+    height: 35%;
+    
+}
+
+.titulo-capital-mexico{
+    font-size: 42px;
+    color: rgb(76, 119, 240);
+    text-align: center;
+    margin-top: 7.5rem;
+    margin-right: 2%;
+    
+    
+}
+
+.imagem-capital-mexico{
+    -webkit-box-shadow: 18px 8px 25px 10px #000000; 
+    box-shadow: 18px 8px 25px 10px #000000;
+    margin-top: 2%;
+    margin-left: 0.0rem;
+    border: 4px hidden #1C6EA4;
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 29%;
+    display: flex;
+    
+    
+}
+
+.texto-capital-mexico{
+    padding-top: 2%;
+    font-size: 24px;
+    color: #474747;
+    text-align: justify;
+    width: 95%;
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
+   
+
+}

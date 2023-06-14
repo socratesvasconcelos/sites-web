@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+
+*{
+    font-family: 'Darumadrop One', cursive;
+}
+
+
+
+body{
+    background: rgb(227,216,176);
+    background: linear-gradient(90deg, rgba(227,216,176,1) 0%, rgba(230,162,162,1) 50%, rgba(182,63,63,1) 100%);
+
+}
+
+
+.mexico-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    font-size: 34px;
+    padding-bottom: 2%;
+  }
+
+
+.titulo-principal-mexico{
+    color: green;   
+    text-shadow: 3px 5px 2px #474747;
+    
+
+    
+    
+    
+}
+.titulo-edit-mexico{
+    color: #FFFFFF;   
+ 
+   
+   
+
+
+}
+.titulo-edit-mexico2{
+    color:red;   
+    text-shadow: 3px 5px 2px #474747;
+    
+}
+.titulo-principal-mexico, .titulo-edit-mexico, .titulo-edit-mexico2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+   
+}
+
+
+
+.mazatlan{
+    
+    width: 60%;
+    height: 72%;
+    border-right: 8px ridge rgba(28,110,164,0.48);
+    border-radius: 34px;
+    text-align: center;
+    margin-left: 20%;
+}
+
+
+
+.texto-mazatlan{
+   width: 55%;
+   padding-left: 22%;
+
+}
+
+.imagem-mazatlan{
+   width: 66%;
+   height: 80%;
+   border: 11px ridge rgba(0, 0, 0, 0.63);
+   border-radius: 28px 28px 28px 28px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+}
+
+
+.playa-escondida{
+    text-align: center;
+    padding-top: 25%;
+
+}
+.titulo-playa-escondida{
+
+}
+
+.texto-playa-escondida{
+  width: 35%;
+  justify-content: center;
+  text-align: justify;
+  padding-left: 32%;
+  padding-top: 0.3rem;
+  font-size: 19px;
+}
+
+.imagem-playa-escondida{
+    width:42%;
+    border: 11px ridge rgba(0, 0, 0, 0.63);
+    border-radius: 28px 28px 28px 28px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+}
+
+
+.imagem-baleia-jubarte{
+    padding-left: 37%;
+    padding-top: 2%;
+
+}
+
+
+
+
+
