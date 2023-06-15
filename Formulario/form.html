@@ -10,36 +10,55 @@
 <body>
     <main>
         <form>
-            <label for="nome_completo">Nome completo</label>
-            <input type="text" id="nome_completo" class="input" required>
+            <h1>Formulário</h1>
             
-             <label for="id">ID</label>
-             <input type="number" id="id" class="input" required placeholder="ID">
-            
-
-            <div class="radio-group">
-                <p class="texto">Selecione Pessoa física/jurídica:</p>
-                <label for="radio-fisica"><input type="radio" name="pessoa" value="fisica" id="radio-fisica" class="radios">Física</label>
-                <label for="radio-juridica"><input type="radio" name="pessoa" value="juridica" id="radio-juridica" class="radios">Jurídica</label>
+            <div class="form-group">
+                <label for="nome_completo">Nome completo:</label>
+                <input type="text" id="nome_completo" class="input" required>
             </div>
             
-            <label for="endereco">Endereço:</label>
-            <input type="text" id="endereco" class="input" required>
+            <div class="form-group">
+                <label for="id">ID:</label>
+                <input type="number" id="id" class="input" required placeholder="ID">
+            </div>
             
-            <label for="cep">CEP</label>
-            <input type="text" id="cep" class="input" required placeholder="Ex: 60000-000">
+            <div class="form-group">
+                <label for="pessoa">Selecione Pessoa física/jurídica:</label>
+                <div class="radio-group">
+                    <label for="radio-fisica"><input type="radio" name="pessoa" value="fisica" id="radio-fisica" class="radios">Física</label>
+                    <label for="radio-juridica"><input type="radio" name="pessoa" value="juridica" id="radio-juridica" class="radios">Jurídica</label>
+                </div>
+            </div>
             
-            <label for="rua">Rua:</label>
-            <input type="text" id="rua" class="input" required placeholder="Ex: Av abolição 332">
+            <div class="form-group">
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" class="input" required>
+            </div>
             
-            <label for="data">Data de nascimento:</label>
-            <input type="date" id="data" class="input" required>
+            <div class="form-group">
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" class="input" required placeholder="Ex: 60000-000">
+            </div>
             
-            <label for="vendedor">Vendedor:</label>
-            <input type="text" id="vendedor" class="input" required>
+            <div class="form-group">
+                <label for="rua">Rua:</label>
+                <input type="text" id="rua" class="input" required placeholder="Ex: Av abolição 332">
+            </div>
             
-            <label for="limite">Limite de crédito:</label>
-            <input type="number" id="limite" class="input" required placeholder="Limite de crédito">
+            <div class="form-group">
+                <label for="data">Data de nascimento:</label>
+                <input type="date" id="data" class="input" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="vendedor">Vendedor:</label>
+                <input type="text" id="vendedor" class="input" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="limite">Limite de crédito:</label>
+                <input type="number" id="limite" class="input" required placeholder="Limite de crédito">
+            </div>
             
             <input type="submit" value="Enviar formulário" class="enviar">
         </form>
